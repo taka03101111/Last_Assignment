@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>洋楽エクスプローラー</title>
+    <meta name="description" content="洋楽エクスプローラー">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/script _muzicsite.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/musicsite2.css"> 
+
+</head>
+<body>
+
+<header class="header">
+    <div class="header-inner">
+        <a class="header-logo" href="index.html">
+            <img src="images/common/gazou2.png" alt="ロゴ">
+        </a>
+        <button class="toggle-menu-button"></button>
+        <div class="header-site-menu">
+            <nav class="site-menu">
+                <ul>
+                    <li><a href="musicsite1.html">歌いやすい洋楽</a></li>
+                    <li><a href="musicsite2.html">おすすめ別の洋楽</a></li>
+                    <li><a href="sing.html">歌詞がいい洋楽</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+</head>
+  <title>洋楽紹介サイト</title>
+
+<body>
+
+<h1>🎧 洋楽おすすめコレクション</h1>
+
+<!-- Listening タブ -->
+<div id="listening" class="tab-content active">
+  <div class="genre-section">
+    <div class="section-title">Pop</div>
+    
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7EsjkelQuoUlJXEw7SeVV4?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Black or White</div>
+        <div class="artist">Michael Jackson</div>
+        <div class="description hidden">Michael Jacksonの「Black or White」は、人種や文化の違いを超えた平等と団結を訴えるメッセージソング。
+ロックとヒップホップを融合させた力強いサウンドが特徴で、1991年に世界的ヒットを記録。
+印象的なギターリフとラップパートが楽曲に躍動感を加えている。
+“肌の色なんて関係ない”という強いメッセージは、今なお多くの人の心を打ち続けている。</div>
+      </div>
+    </div>
+
+ <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5nujrmhLynf4yMoMtj8AQF?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Levitating</div>
+        <div class="artist">Dua Lipa ft.DaBaby</div>
+        <div class="description hidden">Dua Lipaの「Levitating」は、80年代のディスコサウンドと現代的なポップを融合させたアップテンポな一曲。
+恋に落ちたときの高揚感を“宙に浮く”ような感覚で表現しており、聴く人を自然と踊り出させる。
+キャッチーなメロディとリズムが特徴で、世界中で大ヒットを記録。
+エネルギッシュでポジティブな気分にしてくれる、Dua Lipaの代表作のひとつ。</div>
+      </div>
+    </div>
+
+ <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3MxvnLsw2nx9W12svVvmyr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Jealousy</div>
+        <div class="artist">Mike Posner ft.blackbear</div>
+        <div class="description hidden">Mike Posnerの「Jealousy」は、嫉妬心や不安といった人間のリアルな感情を赤裸々に描いたエモーショナルな楽曲。
+繊細な歌声とミニマルなサウンドが、心の揺れを静かに際立たせている。
+シンプルながら深い歌詞がリスナーの共感を呼び、自分自身の感情と向き合うきっかけにもなる。
+Mike Posnerの内省的な一面が際立つ、静かに刺さる一曲。
+</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0sCnZ9O2UsNiIPxMIse5TY?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">gold</div>
+        <div class="artist">SHADED</div>
+        <div class="description hidden">SHADEDの「gold」は、繊細でドリーミーなエレクトロポップサウンドが印象的な楽曲。
+透明感のあるボーカルと心地よいシンセの響きが、聴く者を幻想的な世界へ誘う。
+恋や人生の輝きを「金（Gold）」にたとえ、希望や喜びを静かに表現している。
+映画やCMでも使用され、多くのリスナーに愛される代表曲のひとつ。</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Kua7qb1Ze2yQNH3rVChol?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">History</div>
+        <div class="artist">Mitch James</div>
+        <div class="description hidden">Mitch Jamesの「History」は、アコースティックギターを中心にしたシンプルで心温まるフォーク・ポップソング。
+過去の恋愛や思い出を振り返りながら、感情の機微を丁寧に歌い上げている。
+柔らかな歌声とストレートな歌詞がリスナーの共感を呼び、優しい気持ちにさせてくれる一曲。
+自然体で親しみやすいサウンドが、Mitch Jamesの魅力を引き立てている。</div>
+      </div>
+    </div>
+    <!-- 他にも追加可 -->
+  </div>
+
+  <div class="genre-section">
+    <div class="section-title">R&B</div>
+    
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3xKsf9qdS1CyvXSMEid6g8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Pink + White</div>
+        <div class="artist">Frank Ocean</div>
+        <div class="description hidden">Frank Oceanの「Pink + White」は、2016年のアルバム『Blonde』に収録された、繊細で夢幻的なR&Bナンバー。
+色彩豊かな歌詞と美しいメロディが、過ぎ去った時間や記憶の儚さを詩的に表現している。
+爽やかなシンセとジャズの影響を感じさせるアレンジが心地よく、Frankの独特な世界観が際立つ。
+聴く人を優しく包み込む、感情豊かな名曲のひとつ。
+</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4JNdwEfqwFRiAeEISC8RU8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Die for you</div>
+        <div class="artist">The weeknd ft.Ariana Grande</div>
+        <div class="description hidden">「Die For You」は、The Weekndの2016年アルバム『Starboy』に収録された、エモーショナルでメロウなラブバラード。
+「言葉では伝えられないけど、君のためなら死ねる」という強い愛を、美しいファルセットで切実に歌い上げる。
+80年代風のシンセと現代的なR&Bが融合したサウンドが、哀愁と温かさを同時に感じさせる。
+Ariana Grandeとのリミックス版も話題となり、再び世界的にヒットした代表曲のひとつ。</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Q7EgiMOuwDcB0PJC6AzON?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Best Part</div>
+        <div class="artist">Daniel Caeser ft.H.E.R.</div>
+        <div class="description hidden">「Best Part」は、Daniel CaesarとH.E.R.によるデュエットが美しい、極上のR&Bラブソング。
+アコースティックなサウンドとスローなリズムに乗せて、恋人の存在が人生の“最高の一部”だと優しく歌い上げている。
+二人の柔らかく感情のこもったボーカルが溶け合い、聴く者の心に深く染みわたる。
+シンプルながらも深い愛情が感じられる、現代R&Bの名曲のひとつ。
+
+</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/68vgtRHr7iZHpzGpon6Jlo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">My Boo</div>
+        <div class="artist">USHER ft.Alicia Keys</div>
+        <div class="description hidden">「My Boo」は、UsherとAlicia Keysが2004年にリリースしたデュエットソングで、かつての恋人同士の想いを切なく描いたR&Bバラード。
+過去の関係に未練を残しつつも、お互いの幸せを願う成熟した感情が歌詞ににじむ。
+二人のソウルフルな歌声が重なり、深い情感と美しいハーモニーを生み出している。
+甘く切ない余韻を残す、2000年代R&Bの名ラブソング。</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/11da2dMQkeFZixxHZJYs6m?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Love</div>
+        <div class="artist">Keyshia Cole</div>
+        <div class="description hidden">Keyshia Coleの「Love」は、2005年のデビュー作『The Way It Is』に収められた切なく感情を揺さぶるR&Bバラード。
+常に「最善を尽くしても、自分は足りないのでは」と感じてしまう恋心を率直に描き、共感を呼ぶ歌詞が胸に響く
+ソウルフルな歌声とミニマルなトラックが、切なさと強さを兼ね備えた大人の恋愛を美しく表現。
+Billboard入りを果たし、R&Bファンを中心にプラチナ認定を得た代表曲のひとつ。</div>
+      </div>
+    </div>
+
+    <!-- 音楽カード追加予定 -->
+  </div>
+</div>
+
+  <div class="genre-section">
+    <div class="section-title">バラード</div>
+    
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6xGruZOHLs39ZbVccQTuPZ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Glimpse of Us</div>
+        <div class="artist">Joji</div>
+        <div class="description hidden">「Glimpse of Us」は、Jojiが2022年にリリースしたピアノ主体のバラードで、彼の繊細で感情的な一面が際立つ楽曲。
+現在の恋人と過ごす中で、ふとした瞬間に“あの人”の面影を見てしまうという、未練と葛藤を静かに描いている。
+ミニマルな構成の中に、Jojiの儚く切ないボーカルが深く響く。
+心の奥にそっと触れるような、静かな痛みを美しく表現した名曲。 
+</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3U4isOIWM3VvDubwSI3y7a?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">All of Me</div>
+        <div class="artist">John Legend</div>
+        <div class="description hidden">「All of Me」は、2013年のアルバム『Love in the Future』からのシンプルなピアノバラードで、当時婚約中だったChrissy Teigenへの深い愛を歌った曲です。
+シンプルな鍵盤とLegendのエモーショナルな歌声が際立っており、「すべての私があなたを愛する」というメッセージが聴く人の心を強く打ちます。
+ミュージックビデオでは、ふたりのイタリアでの結婚式の様子がモノクロ映像で映され、とてもリアルで感動的なラブストーリーとして表現されています。
+婚礼ソングとして世界中で支持され、John Legendのキャリアで最初の全米No.1ヒットにもなりました。</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7pKfPomDEeI4TPT6EOYjn9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Imagine</div>
+        <div class="artist">John Lennon</div>
+        <div class="description hidden">「Imagine」は、John Lennonが1971年に発表した、平和と希望をテーマにした不朽の名作バラード。
+「国境も宗教も持たず、人々がひとつになって生きる世界」を思い描く歌詞は、時代を超えて多くの人に感動と勇気を与え続けている。
+シンプルなピアノと静かなメロディに込められたメッセージは、今なお世界中で愛される反戦・平和の象徴。
+Lennonのソロキャリアの中でも最も有名で、音楽史に残るアンセムのひとつです。
+
+</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3GYlZ7tbxLOxe6ewMNVTkw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">TV</div>
+        <div class="artist">Billie Eilish</div>
+        <div class="description hidden">Billie Eilishが2022年7月に発表した「TV」は、アコースティックギターを主体にした静謐なバラードで、失恋や友情のすれ違いをテーマにしたリアルな心情を描く一曲。
+「友達がいなくなる」「テレビを見て現実から逃れたい」といった率直な歌詞が、孤独や自己嫌悪をシンプルにそして痛切に表現しています。
+歌詞にはRoe v. Wade（妊娠中絶権）やDepp-Heard裁判への言及も含まれ、個人的感情と社会問題を絡めた深みが特徴です。
+ラストには「Maybe I'm the problem」を繰り返し、自分自身を責める内省的な姿が胸を打つ、聞く者の共感を呼ぶ曲です</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6IAZHEBUIGJ6NJKxxOBIEr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Rolling in the Deep</div>
+        <div class="artist">Adele</div>
+        <div class="description hidden">「Rolling in the Deep」は、Adeleが2010年にリリースした2枚目のアルバム『21』のリードシングルで、全世界で爆発的なヒットを記録しました。
+怒りや裏切りといった感情をパワフルなボーカルで表現し、ソウルフルかつドラマティックな楽曲構成が聴く者の心を打ちます。
+「あなたはすべてを手にできたのに、それを壊してしまった」という歌詞は、失恋の痛みと自立への強さを同時に伝えるメッセージ。
+グラミー賞をはじめ多数の賞を受賞し、Adeleの名を世界に知らしめた代表曲です。</div>
+      </div>
+    </div>
+
+    <!-- 音楽カード追加予定 -->
+  </div>
+</div>
+
+  <div class="genre-section">
+    <div class="section-title">Hip-Hop/Rap</div>
+    
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6AI3ezQ4o3HUoP6Dhudph3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Not like Us</div>
+        <div class="artist">Kendrick Lamar</div>
+        <div class="description hidden">「Not Like Us」は、2024年5月にリリースされたKendrick Lamarによるドレイクへの直接的なディストラック。
+クラブ向けのWest Coastヒップホップで、Mustardによるハイハイフィ・スタイルのビートと緊迫感のあるヴァイオリンが融合した攻撃的なサウンドが特徴です 。
+レースとカルチャーを巡る鋭い批判を交えながら、「認証された恋人男爵から認証された小児性愛者へ」といった強烈なリリックでドレイクのイメージを徹底的に攻撃しています 。
+リリース後、チャートを席巻し、2025年にはグラミー5冠とスーパーボウルハーフタイムでのパフォーマンスを実現するなど、Kendrickのキャリアにおける象徴的な楽曲となりました 。
+</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7G3lxTsMfSx4yarMkfgnTC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">The World Is Yours</div>
+        <div class="artist">Nas</div>
+        <div class="description hidden">「The World Is Yours」は、1994年にリリースされたNasのデビューアルバム『Illmatic』からのシングルで、彼の名を広めた名曲です。
+プロデューサーPete Rockによるジャジーなビートと、Ahmad Jamalの「I Love Music」からのサンプリングが特徴的なトラックです。
+歌詞は映画『Scarface』の影響を受け、野心と自己肯定感をテーマにしています。
+この曲は、Nasのリリックの深さと、90年代ヒップホップの黄金時代を象徴する作品として評価されています。</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5TRPicyLGbAF2LGBFbHGvO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Flashing Lights</div>
+        <div class="artist">Kanye West, Dwele</div>
+        <div class="description hidden">「Flashing Lights」は、Kanye Westの2007年のアルバム『Graduation』からのシングルで、彼の音楽的進化を象徴する一曲です。
+エレクトロ・ヒップホップとR&Bの融合に、シンフォニックなストリングスと明快なシンセサウンドを組み合わせたプロダクションが特徴です。
+歌詞では、複雑な恋愛関係とメディアの注目をテーマにし、パパラッチや公私の葛藤を描いています。
+Dweleのコーラスと、Connie Mitchellのバックボーカルが楽曲に深みを加えています。
+
+</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/40iJIUlhi6renaREYGeIDS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Fair Trade</div>
+        <div class="artist">Drake ft.Travis Scott</div>
+        <div class="description hidden">「Fair Trade」は、Drakeが2021年のアルバム『Certified Lover Boy』でリリースした楽曲で、Travis Scottがフィーチャーされています。
+成功と人間関係の変化をテーマに、失った友情と得た心の平和を率直に歌い上げています。
+Charlotte Day Wilsonのサンプリングが曲の雰囲気を豊かにし、トラップビートとメロディアスな要素が融合したサウンドが特徴です。
+深い歌詞と洗練されたプロダクションで、多くのリスナーから高い評価を受けています。</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6SNGzhVrisdq63Ndz58ovT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Luv(sic)</div>
+        <div class="artist">Nujabes</div>
+        <div class="description hidden">「Luv(sic)」は、伝説的な日本のヒップホッププロデューサーNujabesとラッパーのShing02による人気シリーズの一曲目です。
+ジャジーなサンプルとメロウなビートに乗せて、愛と人生について深く思索的なリリックが綴られています。
+Nujabesの独特の温かみあるサウンドとShing02の詩的なフローが絶妙に融合し、リスナーの心に響く作品です。
+ヒップホップとジャズの美しい融合として、多くのファンに長く愛され続けています。</div>
+      </div>
+    </div>
+
+    <!-- 音楽カード追加予定 -->
+  </div>
+</div>
+
+
+  <div class="genre-section">
+    <div class="section-title">Jazz</div>
+    
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WWH9KWDgGsM0Yrl5gdCeV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Wake Up - Instrumental</div>
+        <div class="artist">Freddie Joachim</div>
+        <div class="description hidden">「Wake Up (Instrumental)」は、Freddie Joachimの代表作のひとつで、ジャジーでメロウなヒップホップビートが特徴のインストゥルメンタルトラックです。
+豊かなサックスやギターの旋律が心地よく響き、リラックスしたムードを演出します。
+ラップが入らない分、音の細部やアレンジの美しさをじっくり楽しめる一曲で、作業用BGMやカフェミュージックとしても人気があります。
+Freddie Joachimの繊細なプロダクションセンスが光る、聴きやすく深みのあるインストです。
+</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2BittppN9pQG58pQ5f3Jac?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">MY FLAME</div>
+        <div class="artist">Bobby Caldwell</div>
+        <div class="description hidden">「「My Flame」は、Bobby Caldwellの洗練されたヴォーカルと豊かなメロディが光る名曲です。
+スムースジャズとソウルを融合した温かみのあるサウンドが特徴で、情感豊かな歌詞が愛の情熱を繊細に表現しています。
+そのクラシカルで落ち着いた雰囲気は、多くのファンに愛され、時代を超えて聴き継がれています。
+Bobby Caldwellの魅力が詰まった、大人のラブソングとしておすすめの一曲です。</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2mWfVxEo4xZYDaz0v7hYrN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">Juna</div>
+        <div class="artist">Clairo</div>
+        <div class="description hidden">「Juna」は、アメリカのシンガーソングライターClairoによる、繊細で内省的な楽曲です。
+夢幻的なサウンドと彼女の柔らかな歌声が美しく融合し、感情の深さと成長のテーマを描いています。
+ミニマルなアレンジながらも豊かな表現力があり、リスナーを穏やかな世界へと誘います。
+Clairoの独特な感性が光る、インディーポップファンにおすすめの一曲です。
+
+</div>
+      </div>
+    </div>
+
+    <div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/45Ucre28FuNGYxHG7ZlAQ4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">I Miss You So</div>
+        <div class="artist">Nat King Cole Trio</div>
+        <div class="description hidden">「I Miss You So」は、Nat King Cole Trioによる1940年代のジャズバラードで、彼らの代表的なナンバーの一つです。
+Nat King Coleの温かく滑らかなピアノと甘美なヴォーカルが、失った愛への切ない想いを美しく表現しています。
+シンプルながらも深みのあるアレンジが聴く者の心に響き、時代を超えて愛され続けています。
+ジャズの黄金期を象徴する名曲として、多くのファンに親しまれています。</div>
+      </div>
+    </div>
+
+<div class="music-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3spdoTYpuCpmq19tuD0bOe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="music-info" onclick="toggleDescription(this)">
+        <div class="title">My Way</div>
+        <div class="artist">Frank Sinatra</div>
+        <div class="description hidden">「My Way」はFrank Sinatraの代表曲のひとつで、自分の人生を振り返りながら誇りを持って歩んできた道を歌い上げる名バラード。
+自己肯定と決断の強さを力強く表現し、多くの世代に愛され続けている。
+シンプルながらも壮大なオーケストレーションとSinatraの深みあるボーカルが、感動を与える。
+人生を自分らしく生きることの大切さを伝える、不朽のクラシックソング。</div>
+      </div>
+    </div>
+
+    <!-- 音楽カード追加予定 -->
+  </div>
+</div>
+
+<button id="toTopBtn" style="display:none; position: fixed; bottom: 20px; right: 20px; z-index: 999;">TOPへ</button>
+
+<script src="js/script_muzicsite.js"></script>
+</body>
+</html>
